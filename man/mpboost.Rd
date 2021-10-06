@@ -31,11 +31,11 @@ mpboost(N1, N2, MTI = 2L)
 \references{Berger, V. W., Ivanova, A., Knoll, M. D. (2003). Minimizing
   predictability while retaining balance through the use of less
   restrictive randomization procedures. Statistics in Medicine, 22: 3017-3028.
-  \url{https://doi.org/10.1002/sim.1538}.
+  \doi{10.1002/sim.1538}.
   
   Salama, I., Ivanova, A., Qaqish, B. (2008). Efficient generation of
   constrained block allocation sequences. Statistics in Medicine, 27,
-  1421-1428. \url{https://doi.org/10.1002/sim.3014}.
+  1421-1428. \doi{10.1002/sim.3014}.
 }
 
 \note{See the package's vignette for more details and further examples of the use of the function.

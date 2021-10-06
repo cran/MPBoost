@@ -19,7 +19,7 @@ vignette: >
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(collapse = TRUE, fig.width = 4.8, fig.height = 4.8)
-````
+```
 # Introduction
 
 The time-honored principle of randomization [@fisher1925] has found its way into experimentation in humans through the conduct of clinical trials. An excellent account of the different types of randomization procedures available for assigning treatments in clinical trials may be found in @rosenberger2016. As explained there, although applying the procedure of *complete randomization* could seem an obvious way to proceed, it suffers from an important drawback. Complete randomization can give rise to unbalanced treatment assignments, resulting in a loss of power of the tests applied. As a way of forcing assignment balance, *restricted randomization* procedures have been developed. The feature in common to all restricted randomization procedures is the probabilistic dependence of any assignments (excepting for the first one) on previous assignments. As a matter of fact, nowadays the majority of clinical trials resort to one of the different procedures of restricted randomization available to ensure balance in the treatment assignments. However, excessively restrictive procedures are exposed to selection bias. This happens, e.g., in unmasked trials with a *permuted block* design of fixed block size. As an extreme example, consider the case of a two-armed clinical trial with treatment ratio 1:1, in which the first *M* patients of a block of size *2M* are allocated to treatment 1; then, the last *M* allocations must be to treatment 2 and are entirely predictable by the researcher.

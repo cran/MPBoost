@@ -1,3 +1,9 @@
+Changes in version 0.1-4
+
+	2021/10/05 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
+
+	* vignettes/mpboost.Rmd: the code delimiters of the first chunk are now balanced.
+
 Changes in version 0.1-3  (first version on CRAN, 2019/10/02)
 
 	2019/10/02 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
@@ -5,7 +11,4 @@ Changes in version 0.1-3  (first version on CRAN, 2019/10/02)
 	* src: 'Makevars' and 'Makevars.win' files created.
 
 	* scr/mpboost.cpp: 'tempr.convert_to<double>()' used instead of 'static_cast<double>(tempr)'.
-
-
-
 
