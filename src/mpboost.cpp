@@ -85,7 +85,7 @@ Rcpp::IntegerVector mpboost(int N1, int N2, int MTI) {
   double bern;
   unsigned int vertnext = 0;
   for (vertexPair = vertices(g); vertexPair.first != vertexPair.second; ++vertexPair.first) {
-    if ((VertexInfo1Map[vertnext] != N) & (vertnext == *vertexPair.first)) {
+    if ((VertexInfo1Map[vertnext] != N) && (vertnext == *vertexPair.first)) {
       bern = R::rbinom(1, EdgeWeightMap[*out_edges(*vertexPair.first, g).first]);
       if (bern == 1) {
 	x.push_back(1);

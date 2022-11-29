@@ -1,4 +1,4 @@
-useDynLib(MPBoost, .registration=TRUE)
+useDynLib(MPBoost, .registration = TRUE)
 exportPattern("^[[:alpha:]]+")
 importFrom(Rcpp, evalCpp)
 

@@ -1,3 +1,9 @@
+Changes in version 0.1-5
+
+	2022/11/21 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
+
+	* scr/mpboost.cpp: (logical) '&&' used instead of (bitwise) '&'.
+
 Changes in version 0.1-4
 
 	2021/10/05 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
