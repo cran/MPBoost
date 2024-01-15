@@ -1,3 +1,11 @@
+Changes in version 0.1-6
+
+	2024/01/15 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
+
+	* scr/Makevars: file deleted.
+
+	* scr/Makevars.win: file deleted.
+
 Changes in version 0.1-5
 
 	2022/11/21 Ignacio López-de-Ullibarri <ignacio.lopezdeullibarri@udc.es>
